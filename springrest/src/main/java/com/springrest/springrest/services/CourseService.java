@@ -1,9 +1,12 @@
 package com.springrest.springrest.services;
 
 import java.util.List;
-package com.springrest.springrest.services;
+
+import com.springrest.springrest.entities.Course;
+
 
 public interface CourseService {
-	public List<course> getCourses();
+	
+	public List<Course> getCourses();
 
 }
