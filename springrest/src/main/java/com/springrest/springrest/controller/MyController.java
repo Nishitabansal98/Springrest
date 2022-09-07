@@ -15,7 +15,6 @@ public class MyController {
 	}
 	
 	
-	
 	@GetMapping("/courses")
 	public List<Course> getCourses() {
 	
