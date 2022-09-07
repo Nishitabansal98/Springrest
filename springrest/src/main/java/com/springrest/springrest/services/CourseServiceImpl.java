@@ -9,9 +9,6 @@ public class CourseServiceImpl implements CourseService {
 	@Override
 	public List<Course> getCourses() {
 		
-		
-		
-		
 		return null;
 	}
 	

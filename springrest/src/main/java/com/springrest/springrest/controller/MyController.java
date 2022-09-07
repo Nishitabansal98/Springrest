@@ -14,6 +14,8 @@ public class MyController {
 		return "Welcome to courses Application";
 	}
 	
+	
+	
 	@GetMapping("/courses")
 	public List<Course> getCourses() {
 	
