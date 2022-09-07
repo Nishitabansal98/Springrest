@@ -3,8 +3,10 @@ package com.springrest.springrest.services;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.springrest.springrest.entities.Course;
+import org.springframework.stereotype.Service;
 
+import com.springrest.springrest.entities.Course;
+@Service
 public class CourseServiceImpl implements CourseService {
 
 	
