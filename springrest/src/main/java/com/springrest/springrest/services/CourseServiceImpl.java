@@ -13,15 +13,12 @@ public class CourseServiceImpl implements CourseService {
 		public CourseServiceImpl() {
 			list=new ArrayList<>();
 			list.add(new Course(145, "Java Core Course", "this course"));
-			list.add(new Course(105, "Spring Boot Course", "this course"))
+			list.add(new Course(105, "Spring Boot Course", "this course"));
 		}
 
 		@Override
 		public List<Course> getCourses() {
-			// TODO Auto-generated method stub
-			return null;
+			return list;
 	}
-	
-	
 	
 }
